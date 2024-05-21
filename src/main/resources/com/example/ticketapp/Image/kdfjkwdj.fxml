@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="3.0" prefHeight="654.0" prefWidth="62.0" style="-fx-background-color: #62b4ef;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1064.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="298.0" layoutY="127.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="143.0" prefHeight="654.0" prefWidth="62.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1064.0" AnchorPane.topAnchor="0.0" />
+            <AnchorPane layoutX="114.4" layoutY="5.0" prefHeight="654.0" prefWidth="1059.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <TextField layoutX="93.0" layoutY="52.0" prefHeight="26.0" prefWidth="676.0" />
+                  <FontAwesomeIconView glyphName="SEARCH" layoutX="747.0" layoutY="69.0" wrappingWidth="15.200048828125091" />
+                  <AnchorPane layoutX="-33.6" layoutY="5.0" prefHeight="654.0" prefWidth="1046.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-34.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ScrollBar layoutX="41.0" layoutY="14.0" orientation="VERTICAL" prefHeight="621.0" prefWidth="14.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="780.0" layoutY="29.0" prefHeight="101.0" prefWidth="200.0" style="-fx-background-color: #62b4ef;">
+                     <children>
+                        <FontAwesomeIconView glyphName="USER" layoutX="72.0" layoutY="81.0" size="70" wrappingWidth="34.40000000000009" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
